@@ -63,6 +63,7 @@ D:\11vo Ciclo UPC\Arqui2\WebApplication1\WebApplication1\obj\Debug\WebApplicatio
 D:\11vo Ciclo UPC\Arqui2\WebApplication1\WebApplication1\obj\Debug\ShoppingCar.csproj.GenerateResource.Cache
 D:\11vo Ciclo UPC\Arqui2\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 D:\11vo Ciclo UPC\Arqui2\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+<<<<<<< HEAD
 D:\Developer\Development\VS\ShoppingCar\WebApplication1\bin\WebApplication1.dll.config
 D:\Developer\Development\VS\ShoppingCar\WebApplication1\bin\WebApplication1.dll
 D:\Developer\Development\VS\ShoppingCar\WebApplication1\bin\WebApplication1.pdb
@@ -129,3 +130,70 @@ D:\Developer\Development\VS\ShoppingCar\WebApplication1\obj\Debug\ShoppingCar.cs
 D:\Developer\Development\VS\ShoppingCar\WebApplication1\obj\Debug\WebApplication1.dll
 D:\Developer\Development\VS\ShoppingCar\WebApplication1\obj\Debug\WebApplication1.pdb
 D:\Developer\Development\VS\ShoppingCar\WebApplication1\obj\Debug\WebApplication1.Migrations.Init.resources
+=======
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\WebApplication1.dll.config
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\WebApplication1.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\WebApplication1.pdb
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Antlr3.Runtime.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\EntityFramework.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\EntityFramework.SqlServer.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.AspNet.Identity.Core.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.Cookies.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.Facebook.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.Google.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.OAuth.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.Twitter.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\MySql.Data.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\MySql.Data.Entity.EF6.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Newtonsoft.Json.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Owin.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\RestSharp.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.Helpers.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.Mvc.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.Optimization.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.Razor.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.WebPages.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.WebPages.Razor.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Twilio.Api.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\WebGrease.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\EntityFramework.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\EntityFramework.SqlServer.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\RestSharp.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.Helpers.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.Mvc.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.Optimization.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.Razor.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.WebPages.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\System.Web.WebPages.Razor.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Twilio.Api.pdb
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Twilio.Api.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Antlr3.Runtime.pdb
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Newtonsoft.Json.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.AspNet.Identity.Core.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.Facebook.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.Cookies.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.OAuth.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.Google.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.Twitter.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\obj\Debug\ShoppingCar.csprojResolveAssemblyReference.cache
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\obj\Debug\WebApplication1.Migrations.Initial.resources
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\obj\Debug\WebApplication1.Migrations.PrimerCambio.resources
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\obj\Debug\ShoppingCar.csproj.GenerateResource.Cache
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\obj\Debug\WebApplication1.dll
+D:\11vo Ciclo UPC\Arqui2\TrabajoParcial\WebApplication1\obj\Debug\WebApplication1.pdb
+>>>>>>> 6695fd255c3b609659b7767c3bdf2ddc78a292e0
