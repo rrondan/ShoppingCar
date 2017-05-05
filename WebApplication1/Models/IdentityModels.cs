@@ -25,7 +25,13 @@ namespace WebApplication1.Models
     [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbSet<Item> Item { get; set; } 
+        public DbSet<Item> Item { get; set; }
+        public DbSet<Album> Albums { get; set; }
+        public DbSet<Genre> Genres { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<Artist> Artists { get; set; }
+        public DbSet<Order> Orders  { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
@@ -45,7 +51,7 @@ namespace WebApplication1.Models
             modelBuilder.Entity<ApplicationUser>().Property(u => u.Email).HasMaxLength(255);
             modelBuilder.Entity<IdentityRole>().Property(r => r.Name).HasMaxLength(255);
             modelBuilder.Conventions.Remove<System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention>();
-      
+
         }
     }
 }

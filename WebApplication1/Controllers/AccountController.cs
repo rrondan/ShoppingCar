@@ -10,6 +10,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using WebApplication1.Models;
 using WebApplication1.Logic;
+using WebApplication1.Models.Portal;
 
 namespace WebApplication1.Controllers
 {
@@ -53,6 +54,14 @@ namespace WebApplication1.Controllers
             }
         }
 
+        private void MigrateShoppingCart(string UserName)
+        {
+            // Associate shopping cart items with logged-in user
+            var cart = ShoppingCart.GetCart(this.HttpContext);
+
+            cart.MigrateCart(UserName);
+            Session[ShoppingCart.CartSessionKey] = UserName;
+        }
         //
         // GET: /Account/Login
         [AllowAnonymous]
@@ -80,6 +89,7 @@ namespace WebApplication1.Controllers
             switch (result)
             {
                 case SignInStatus.Success:
+                    MigrateShoppingCart(model.Email);
                     return RedirectToLocal(returnUrl);
                 case SignInStatus.LockedOut:
                     return View("Lockout");
@@ -161,7 +171,7 @@ namespace WebApplication1.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                   
+                    MigrateShoppingCart(model.Email);
                         var code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
                         var callbackUrl = Url.Action(
                            "ConfirmEmail", "Account",
