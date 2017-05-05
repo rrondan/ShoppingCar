@@ -13,14 +13,17 @@ using WebApplication1.Logic;
 
 namespace WebApplication1.Controllers
 {
+
     [Authorize]
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
+        ApplicationDbContext context;
 
         public AccountController()
         {
+            context = new ApplicationDbContext();
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
@@ -76,7 +79,7 @@ namespace WebApplication1.Controllers
 
             // This doesn't count login failures towards account lockout
             // To enable password failures to trigger account lockout, change to shouldLockout: true
-            var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
+            var result = await SignInManager.PasswordSignInAsync(model.UserName, model.Password, model.RememberMe, shouldLockout: false);
             switch (result)
             {
                 case SignInStatus.Success:
@@ -135,11 +138,15 @@ namespace WebApplication1.Controllers
             }
         }
 
+
+
         //
         // GET: /Account/Register
         [AllowAnonymous]
         public ActionResult Register()
         {
+            ViewBag.Name = new SelectList(context.Roles.Where(u => !u.Name.Contains("Admin"))
+                                            .ToList(), "Name", "Name");
             return View();
         }
 
@@ -161,19 +168,22 @@ namespace WebApplication1.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                   
-                        var code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
-                        var callbackUrl = Url.Action(
-                           "ConfirmEmail", "Account",
-                           new { userId = user.Id, code = code },
-                           protocol: Request.Url.Scheme);
+                    await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
+                    /*
+                         var code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
+                         var callbackUrl = Url.Action(
+                            "ConfirmEmail", "Account",
+                            new { userId = user.Id, code = code },
+                            protocol: Request.Url.Scheme);
 
-                        GmailLogic logic = new GmailLogic();
-                        logic.SendMail(user.Email,"Confirmar Correo", "Please confirm your account by clicking this link: <a href=\""  + callbackUrl + "\">link</a>");
-                     
-                        return RedirectToAction("Index", "Home");
-                   
+                         GmailLogic logic = new GmailLogic();
+                         logic.SendMail(user.Email,"Confirmar Correo", "Please confirm your account by clicking this link: <a href=\""  + callbackUrl + "\">link</a>");
+                      */
+                    await this.UserManager.AddToRoleAsync(user.Id, model.UserRoles);
+                    return RedirectToAction("Index", "User");
                 }
+                ViewBag.Name = new SelectList(context.Roles.Where(u => !u.Name.Contains("Admin"))
+                                          .ToList(), "Name", "Name");
                 AddErrors(result);
             }
 
